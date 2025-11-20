@@ -1,0 +1,8 @@
+#domnload the files from inss-server to my mac
+  scp inss-remote:/egr/research-inss/geozhou/2510face... "/Users/hongyuanlong/Desktop/..."
+
+#domnload the files from my mac to inss-server
+  rsync -avzP \
+  "/Users/hongyuanlong/Desktop/..." \
+  geozhou@inss-remote:/egr/research-inss/geozhou/2510face/...
+
