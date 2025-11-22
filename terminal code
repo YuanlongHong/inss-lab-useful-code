@@ -6,3 +6,5 @@
   "/Users/hongyuanlong/Desktop/..." \
   geozhou@inss-remote:/egr/research-inss/geozhou/2510face/...
 
+#复制整个文件夹到本地：
+scp -r inss-remote:/egr/research-inss/geozhou/2510face/... "/Users/hongyuanlong/Desktop/.../"
